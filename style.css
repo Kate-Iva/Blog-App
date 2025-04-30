@@ -4,3 +4,8 @@ background: linear-gradient(to top, #1986CF 0%, #4BCF12 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.banner-holder {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
