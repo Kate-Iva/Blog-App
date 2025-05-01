@@ -9,3 +9,6 @@ background: linear-gradient(to top, #1986CF 0%, #4BCF12 100%);
     background-size: cover;
     background-position: bottom;
 }
+.custom-nav {
+    backdrop-filter: blur(8px);
+}
