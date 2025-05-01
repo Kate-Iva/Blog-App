@@ -43,10 +43,10 @@
               <a href="posts.html" class="nav-link text-dark">Posts</a>
             </li>
             <li class="nav-item">
-              <a href="page.html" class="nav-link text-dark">Pages</a>
+              <a href="#" class="nav-link text-dark">Pages</a>
             </li>
             <li class="nav-item">
-              <a href="search.html" class="nav-link text-dark">Search</a>
+              <a href="#" class="nav-link text-dark">Search</a>
             </li>
             <li class="nav-item">
               <a href="defauld.html" class="nav-link text-dark">Default</a>
@@ -86,8 +86,30 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="page-header-holder mt-5 text-white">
-                    <h1 class="fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quaerat placeat! Aliquid in neque velit quas voluptate ab dicta? Quo, sequi aspernatur eveniet delectus dolores officia aut quos consectetur incidunt!</p>
+                    <h1 class="fs-3">Search results for <q>Your search query</q></h1>
+                    <form class="d-flex col-md-8" role="search">
+                      <div class="input-group">
+                        <input
+                          type="search"
+                          class="form-control form-control-sm"
+                          placeholder="Search for.."
+                        />
+                        <button type="submit" class="btn btn-sm btn-success">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-search"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -100,21 +122,67 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="content-holder">
-                      <img class="rounded img-fluid mb-3" src="img/australia.jpg" alt="">
-                      <div class="post-content mb-3">
-                        <h1>Heading One</h1>
-                        <h2>Heading Two</h2>
-                        <h3>Heading Three</h3>
-                        <h4>Heading Four</h4>
-                        <h5>Heading Five</h5>
-                        <h6>Heading Six</h6>
-
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                        <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, vitae cum! Ut sequi adipisci fuga reiciendis dolor ipsum quaerat, quibusdam architecto nemo quidem veniam soluta ducimus asperiores magnam illo mollitia?</span></p>
-                        <p><span>Ex veritatis beatae perspiciatis quis animi facere labore odio voluptates adipisci consequatur ut fugiat, ea asperiores voluptatem laborum deleniti quia. Reiciendis distinctio aut ratione laudantium. Eaque odit veritatis pariatur deleniti.</span></p>
-                        <p><span>Quam expedita, ipsum asperiores, velit laborum minima quasi dignissimos blanditiis necessitatibus recusandae ea quaerat voluptate omnis dolorum impedit rerum perferendis sint sed accusamus fugit! Mollitia iure omnis nesciunt totam id.</span></p>
-                      </div>
+                    <div class="list-group mb-3">
+                        <a href="#" class="list-group-item list-group-item-action text-dark">
+                            <article class="row align-items-center">
+                                <div class="col-md-3">
+                                    <img src="img/field.jpg" alt="" class="img-fluid rounded">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                    <p class="fw-light small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet voluptates ab deserunt molestiae a eius nostrum. Quidem fugit ipsa illum quod soluta consequuntur non modi neque placeat! Sit, autem?</p>
+                                    <p class="text-secondary">
+                                        <strong> Category: </strong> Some Category
+                                        <strong>Posted on: </strong> 5th April 2025
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action text-dark">
+                            <article class="row align-items-center">
+                                <div class="col-md-3">
+                                    <img src="img/beach.jpg" alt="" class="img-fluid rounded">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                    <p class="fw-light small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet voluptates ab deserunt molestiae a eius nostrum. Quidem fugit ipsa illum quod soluta consequuntur non modi neque placeat! Sit, autem?</p>
+                                    <p class="text-secondary">
+                                        <strong> Category: </strong> Some Category
+                                        <strong>Posted on: </strong> 5th April 2025
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action text-dark">
+                            <article class="row align-items-center">
+                                <div class="col-md-3">
+                                    <img src="img/lake.jpg" alt="" class="img-fluid rounded">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                    <p class="fw-light small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet voluptates ab deserunt molestiae a eius nostrum. Quidem fugit ipsa illum quod soluta consequuntur non modi neque placeat! Sit, autem?</p>
+                                    <p class="text-secondary">
+                                        <strong> Category: </strong> Some Category
+                                        <strong>Posted on: </strong> 5th April 2025
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action text-dark">
+                            <article class="row align-items-center">
+                                <div class="col-md-3">
+                                    <img src="img/australia.jpg" alt="" class="img-fluid rounded">
+                                </div>
+                                <div class="col-md-9">
+                                    <h3 class="fs-5 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                                    <p class="fw-light small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet voluptates ab deserunt molestiae a eius nostrum. Quidem fugit ipsa illum quod soluta consequuntur non modi neque placeat! Sit, autem?</p>
+                                    <p class="text-secondary">
+                                        <strong> Category: </strong> Some Category
+                                        <strong>Posted on: </strong> 5th April 2025
+                                    </p>
+                                </div>
+                            </article>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4">
